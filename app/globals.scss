@@ -8,10 +8,15 @@
   font-size: $xl;
   font-weight: $w-bold;
   // outline: 1px dashed #3fff2a;
+  ::selection {
+    background-color: $primary--red--light;
+    color: $primary--white;
+  }
 }
 
 body {
   min-height: 100vh;
+  width: 100vw;
 }
 
 img {
@@ -22,6 +27,9 @@ img {
   right: 100;
   z-index: -1;
   opacity: 0.040;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .content {

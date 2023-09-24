@@ -32,6 +32,11 @@
     background-color: $primary--red;
     transition: all $transition--duration ease-in-out;
     box-shadow: $btn-shadow--color 0 0.2rem 1rem;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    
     img {
       width: 1.5rem;
       height: auto;
