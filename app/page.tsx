@@ -1,7 +1,9 @@
 
 
 export default function Page() {
-  return(<div>{`${metadata.title} ${metadata.description}`}</div>);
+  return(
+    <div>What Pokemon are you looking for?</div>
+  )
 }
 
 export const metadata = {
