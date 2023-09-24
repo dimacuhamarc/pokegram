@@ -18,7 +18,6 @@ export default function RootLayout({
         <Navbar />
         <Image src={pbLogo} alt='PokèGram Logo'/>
         <div className='content'>
-          
           {children}
         </div>
       </body>

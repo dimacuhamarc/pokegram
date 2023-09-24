@@ -3,7 +3,12 @@
 export default function Page() {
   return(
     <div>
-      What Pokemon are you looking for?
+      <div>
+        What Pokemon are you looking for?
+      </div>
+      <div>
+        What Pokemon are you looking for?
+      </div>
     </div>
   )
 }

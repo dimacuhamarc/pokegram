@@ -22,6 +22,9 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faGlobe}/> Gallery
         </Link>
       </header>
+      <div className={navStyle.floating}>
+        Made By <Link target='_blank' href="https://github.com/dimacuhamarc">Marc Dimacuha</Link>
+      </div>
     </div>
   );
 }
