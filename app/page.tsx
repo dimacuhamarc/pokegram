@@ -1,4 +1,4 @@
-
+import Search from '../components/search/search';
 
 export default function Page() {
   return(
@@ -7,7 +7,7 @@ export default function Page() {
         What Pokemon are you looking for?
       </div>
       <div>
-        What Pokemon are you looking for?
+        <Search />
       </div>
     </div>
   )
